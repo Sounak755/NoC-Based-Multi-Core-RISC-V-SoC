@@ -22,19 +22,8 @@ This project explores on-chip communication between multiple processing cores us
 
 The system integrates processing cores, mesh routers, and a memory subsystem. Routers forward packets between nodes and arbitrate for shared output resources.
 
-```text
-+----------+       +----------+
-|  Core 0  |-------|  Core 1  |
-+----------+       +----------+
-     |                   |
-     |      Mesh NoC     |
-     |                   |
-+----------+       +----------+
-|  Core 2  |-------|  Core 3  |
-+----------+       +----------+
-          |
-   Shared Memory Fabric
-```
+<img width="1536" height="1024" alt="NoC-Based Multi-Core RISC-V SoC Architecture" src="https://github.com/user-attachments/assets/b503731a-d3ed-48a4-9fda-380462349528" />
+
 
 This is a conceptual overview; consult the RTL for the exact connectivity.
 
