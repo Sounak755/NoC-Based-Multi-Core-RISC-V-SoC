@@ -1,0 +1,37 @@
+# Simulation outputs
+sim/
+*.vvp
+*.vcd
+*.fst
+
+# Temporary debug files
+noc_debug_sources.txt
+
+# Editor and operating system files
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+NoC_debug_bundle.zip
+contention_compile.log
+contention_compile_debug.log
+contention_debug.log
+contention_run.err
+contention_run.log
+contention_run_debug.log
+rtl/noc/noc_router.sv.backup
+rtl/noc/noc_router.sv.before_output_patch
+tb/noc/noc_memory_contention_tb.sv.bak
+tb/noc/noc_memory_contention_tb.sv.bak2
+tb/noc/noc_memory_contention_tb.sv.before_portcheck_fix.bak
+
+build/
+
+synth/*.json
+
+# Generated synthesis netlists and temporary backups
+synth/*.json
+*.sv.bak
+*.sv.bak2
+*.sv.backup
+*.sv.before_*
