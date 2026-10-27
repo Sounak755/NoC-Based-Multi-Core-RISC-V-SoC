@@ -41,7 +41,8 @@ This is a conceptual overview; consult the RTL for the exact connectivity.
 Run the regression suite from the repository root:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run_regression.ps1
+Set-ExecutionPolicy -Scope Process Bypass -Force
+.\scripts\run_regression.ps1
 ```
 
 The suite covers mesh operation, contention, memory-fabric integration, multi-core subsystem integration, latency, and throughput.
